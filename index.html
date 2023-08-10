@@ -1,38 +1,32 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>KIRSHAN TALREJA | Home</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>We're Launching Soon!</h1>
 
-	<body>
-	
-	<header>
-		<nav>
-			<h1>KIRSHAN TALREJA</h1>
-			<ul id="nav">
-				<li><a class="homered" href="index.html">HOME</a></li>
-				<li><a class="homeblack" href="gallery.html">GALLERY</a></li>
-				<li><a class="homeblack" href="about-me.html">ABOUT ME</a></li>
-				<li><a class="homeblack" href="contact.html">CONTACT</a></li>
-				<li><a class="homeblack" href="skills.html">SKILLS</a>	</li>
-
-			</ul>
-		</nav>
-	</header>
-
-	<div class="divider"></div>
-	<div  id ="backgroundpic">
-		<h2 class="homesub"> HI! MY NAME IS <span style="color: yellow">KIRSHAN TALREJA</span><span style="color: pink"> AND I LOVE TO</span> </h2>
-		<h1 class="homedes"> DESIGN WEBSITES</h1>
-		<h1 class="homepho"></h1>
-		<br>
-		
-
-		 </div>
-
-	
-
-
-</body>
+    <div class="countdown-container">
+      <div class="countdown-el days-c">
+        <p class="big-text" id="days">0</p>
+        <span id="txt1">days</span>
+      </div>
+      <div class="countdown-el hours-c">
+        <p class="big-text" id="hours">0</p>
+        <span id="txt2">hours</span>
+      </div>
+      <div class="countdown-el mins-c">
+        <p class="big-text" id="mins">0</p>
+        <span id="txt3">mins</span>
+      </div>
+      <div class="countdown-el seconds-c">
+        <p class="big-text" id="seconds">0</p>
+        <span id="txt4">seconds</span>
+      </div>
+    </div>
+  </body>
 </html>
